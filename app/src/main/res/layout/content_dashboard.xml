@@ -123,7 +123,7 @@ android:background="@drawable/foodvillalogo"
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/bat"
+                        android:id="@+id/rumble"
                         android:layout_width="160dp"
                         android:layout_height="190dp"
                         android:layout_margin="10dp"

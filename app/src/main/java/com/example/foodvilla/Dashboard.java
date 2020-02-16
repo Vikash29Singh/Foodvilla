@@ -51,6 +51,7 @@ import java.util.Calendar;
 
 public class Dashboard extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    CardView rumble;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +59,15 @@ public class Dashboard extends AppCompatActivity
         setContentView(R.layout.activity_dashboard);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        rumble = findViewById(R.id.rumble);
+        rumble.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Foodcategory.class));
+            }
+        });
+
         FloatingActionButton fab = findViewById(R.id.gmail);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
