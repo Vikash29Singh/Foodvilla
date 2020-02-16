@@ -5,12 +5,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -19,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-class Snacks extends Fragment implements RecyclerViewAdapter.ClickAdapterListener{
+class Beverages extends Fragment implements RecyclerViewAdapter.ClickAdapterListener{
     View view;
     RecyclerView recyclerView;
     LinearLayoutManager layoutManager;
@@ -53,7 +50,7 @@ class Snacks extends Fragment implements RecyclerViewAdapter.ClickAdapterListene
 
 
         dataModel = new ArrayList<>();
-        Model model = new Model("Samosa","10","4", "2","Available", R.drawable.foodvillalogo);
+        Model model = new Model("Coffee","10","4", "2","Available", R.drawable.foodvillalogo);
         dataModel.add(model);
 
         model = new Model("BLR","10","12:15", "GAU", "15:20", R.drawable.foodvillalogo);
@@ -124,45 +121,4 @@ class Snacks extends Fragment implements RecyclerViewAdapter.ClickAdapterListene
         recyclerView.setAdapter(mAdapter);
     }
 
-    /*private void send_data(View v) {
-        int selectedItemPosition = recyclerView.getChildAdapterPosition(v);
-        RecyclerView.ViewHolder viewHolder = recyclerView.findViewHolderForAdapterPosition(selectedItemPosition);
-
-        LinearLayout linearLayoutParent = (LinearLayout) v;
-
-        CardView cardView = (CardView) linearLayoutParent.getChildAt(0);
-
-        LinearLayout linearLayout = (LinearLayout) cardView.getChildAt(1);
-
-        LinearLayout linearLayout1 = (LinearLayout) linearLayout.getChildAt(0);
-
-        LinearLayout linearLayout2 = (LinearLayout) linearLayout1.getChildAt(0);
-        LinearLayout linearLayout3 = (LinearLayout) linearLayout2.getChildAt(0);
-
-        LinearLayout linearLayout4 = (LinearLayout) linearLayout2.getChildAt(1);
-        //LinearLayout linearLayout5 = (LinearLayout) linearLayout.getChildAt(1);
-
-
-
-        origin = (TextView) linearLayout3.getChildAt(0);
-        destination = (TextView) linearLayout3.getChildAt(1);
-        depart_time = (TextView) linearLayout4.getChildAt(0);
-        arrival_time = (TextView) linearLayout4.getChildAt(1);
-        price = (TextView) linearLayout.getChildAt(1);
-
-
-        originn = origin.getText().toString();
-        destinationn = destination.getText().toString();
-        depart_timen = depart_time.getText().toString();
-        arrival_timen = arrival_time.getText().toString();
-        pricen = price.getText().toString();
-
-
-    }*/
-
-   /* @Override
-    public boolean onSupportNavigateUp() {
-        onBackPressed();
-        return true;
-    }*/
 }

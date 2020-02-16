@@ -5,12 +5,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -19,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-class Snacks extends Fragment implements RecyclerViewAdapter.ClickAdapterListener{
+class Meal extends Fragment implements RecyclerViewAdapter.ClickAdapterListener{
     View view;
     RecyclerView recyclerView;
     LinearLayoutManager layoutManager;
@@ -53,7 +50,7 @@ class Snacks extends Fragment implements RecyclerViewAdapter.ClickAdapterListene
 
 
         dataModel = new ArrayList<>();
-        Model model = new Model("Samosa","10","4", "2","Available", R.drawable.foodvillalogo);
+        Model model = new Model("North Inidian","150","4", "2","Available", R.drawable.foodvillalogo);
         dataModel.add(model);
 
         model = new Model("BLR","10","12:15", "GAU", "15:20", R.drawable.foodvillalogo);

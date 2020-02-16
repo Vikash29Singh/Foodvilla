@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -36,7 +38,7 @@ public class Foodcategory extends AppCompatActivity {
         //I added this if statement to keep the selected fragment when rotating the device
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new Snacks()).commit();
+                    new Beverages()).commit();
         }
     }
 
@@ -54,13 +56,16 @@ public class Foodcategory extends AppCompatActivity {
 
                     switch (item.getItemId()) {
                         case R.id.drink:
-                            selectedFragment = new Snacks();
+                            selectedFragment = new Beverages();
                             break;
                         case R.id.snacks:
                             selectedFragment = new Snacks();
                             break;
                         case R.id.meal:
-                            selectedFragment = new Snacks();
+                            selectedFragment = new Meal();
+                            break;
+                        case R.id.salad:
+                            selectedFragment = new Salad();
                             break;
 
                     }
@@ -81,15 +86,17 @@ public class Foodcategory extends AppCompatActivity {
                     switch (item.getItemId()) {
 
                         case R.id.home:
-                            selectedFragment = new Snacks();
+                            /*selectedFragment = new Snacks();*/
+                            startActivity(new Intent(getApplicationContext(),Dashboard.class));
                             break;
 
                         case R.id.action_cart:
-                            selectedFragment = new Snacks();
+                           // Toast.makeText(getActivity, "", Toast.LENGTH_SHORT).show();
+                            selectedFragment = new Beverages();
                             break;
 
                         case R.id.help:
-                            selectedFragment = new Snacks();
+                            selectedFragment = new Beverages();
                             break;
 
                     }

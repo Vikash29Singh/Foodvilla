@@ -6,10 +6,6 @@
     android:orientation="vertical"
     android:background="@color/white">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/midnightblue"></LinearLayout>
-
+    <include layout="@layout/content_food_details"/>
 
 </RelativeLayout>

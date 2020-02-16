@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/drink"
-        android:icon="@drawable/ic_local_drink_black_24dp"
+        android:icon="@drawable/cafeee"
         android:title="Beverages" />
 
     <item
@@ -15,5 +15,10 @@
         android:id="@+id/meal"
         android:icon="@drawable/meal"
         android:title="Meal" />
+
+    <item
+        android:id="@+id/salad"
+        android:icon="@drawable/salad"
+        android:title="Fruit Bowl" />
 
 </menu>
