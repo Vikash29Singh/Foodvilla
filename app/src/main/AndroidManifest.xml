@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Foodcategory"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".CompleteOrder"></activity>
+        <activity
+            android:name=".Foodcategory"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Login"
             android:theme="@style/AppTheme.NoActionBar" />
