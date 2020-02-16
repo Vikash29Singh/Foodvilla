@@ -14,4 +14,14 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="action_order">My Orders</string>
+    <string name="action_wishlist">My Wishlist</string>
+    <string name="action_account">My Account</string>
+    <string name="action_call">Call</string>
+    <string name="action_log_out">Logout</string>
+    <string name="action_cart">Cart</string>
+    <string name="map">Map</string>
+    <string name="menu_call">Call</string>
+    <string name="menu_aboutUS">About us</string>
+    <string name="rumbles">Rumbles</string>
 </resources>
