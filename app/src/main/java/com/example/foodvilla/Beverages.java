@@ -42,7 +42,7 @@ class Beverages extends Fragment implements RecyclerViewAdapter.ClickAdapterList
 
     @Override
     public void onRowClicked(int position, View view) {
-        Intent intent = new Intent(getActivity(),Dashboard.class);
+        Intent intent = new Intent(getActivity(),Completeorder.class);
         startActivity(intent);
     }
 
