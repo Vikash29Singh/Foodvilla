@@ -9,11 +9,11 @@
 
             android:title="@string/menu_home" />
 
-        <item
+       <!-- <item
             android:id="@+id/action_order"
             android:title="@string/action_order"
 
-            />
+            />-->
         <item
             android:id="@+id/action_cart"
             android:title="@string/action_order"
@@ -34,32 +34,30 @@
             android:title="Schedule Order"
 
             />
+        <item
+            android:id="@+id/nav_call"
+
+            android:title="@string/menu_call" />
+        <item
+            android:id="@+id/nav_send"
+
+            android:title="@string/menu_send" />
+        <item
+            android:id="@+id/nav_about"
+
+            android:title="@string/menu_aboutUS" />
+
+
+        <item
+            android:id="@+id/nav_map"
+            
+            android:title="@string/map" />
 
 
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-
-            <item
-                android:id="@+id/nav_call"
-
-                android:title="@string/menu_call" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
-            <item
-                android:id="@+id/nav_about"
-
-                android:title="@string/menu_aboutUS" />
 
 
-            <item
-                android:id="@+id/nav_map"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/map" />
-        </menu>
-    </item>
+
 
 </menu>

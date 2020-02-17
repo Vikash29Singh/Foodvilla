@@ -205,7 +205,7 @@
         android:layout_alignParentRight="true"
         android:textColor="#000"
         android:fontFamily="sans-serif-condensed"
-        android:text="Comment"
+        android:text="Feedback"
         android:drawableLeft="@drawable/ic_comment_black_24dp"
         />
     <TextView

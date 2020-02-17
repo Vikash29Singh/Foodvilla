@@ -53,23 +53,23 @@ class Snacks extends Fragment implements RecyclerViewAdapter.ClickAdapterListene
 
 
         dataModel = new ArrayList<>();
-        Model model = new Model("Samosa","10","4", "2","Available", R.drawable.foodvillalogo);
+        Model model = new Model("Samosa","10","4.0", "2","Available", R.drawable.samosa);
         dataModel.add(model);
 
-        model = new Model("BLR","10","12:15", "GAU", "15:20", R.drawable.foodvillalogo);
+        model = new Model("Onion Pakoda","10","4.5", "2", "Available", R.drawable.oniopakoda);
         dataModel.add(model);
 
-        model = new Model("BLR", "10","5:50","GAU", "9:00", R.drawable.foodvillalogo);
+        model = new Model("Momo", "40","4.5","2", "Available", R.drawable.momo);
         dataModel.add(model);
 
-        model = new Model("BLR", "10","16:30","GAU","20:40",  R.drawable.foodvillalogo);
+        model = new Model("Burger", "60","4.5","4","Not Available",  R.drawable.burger);
         dataModel.add(model);
 
 
-        model = new Model("BLR","10","13:15", "GAU","4:15", R.drawable.foodvillalogo);
+        model = new Model("Chicken ROll","60","5", "5","Available", R.drawable.chickenroll);
         dataModel.add(model);
 
-        model = new Model("BLR","10","7:20", "GAU","10:45", R.drawable.foodvillalogo);
+        /*model = new Model("BLR","10","7:20", "GAU","10:45", R.drawable.foodvillalogo);
         dataModel.add(model);
 
         model = new Model("BLR","10","15:00", "GAU","6:00",R.drawable.foodvillalogo);
@@ -77,7 +77,7 @@ class Snacks extends Fragment implements RecyclerViewAdapter.ClickAdapterListene
 
 
         model = new Model("BLR","10","20:45", "GAU","12:25",  R.drawable.foodvillalogo);
-        dataModel.add(model);
+        dataModel.add(model);*/
 
        /* model = new Model("Super Series", "Deuce", "Rs. 653", R.drawable.deuce_bat2);
         dataModel.add(model);

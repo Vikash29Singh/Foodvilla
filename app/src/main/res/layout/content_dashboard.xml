@@ -144,7 +144,7 @@ android:background="@drawable/foodvillalogo"
                                 android:layout_width="128dp"
                                 android:layout_height="64dp"
                                 android:padding="10dp"
-                                android:src="@drawable/foodvillalogo"
+                                android:src="@drawable/rumbles"
                                  />
 
                             <TextView
@@ -187,16 +187,17 @@ android:background="@drawable/foodvillalogo"
                             android:orientation="vertical">
 
                             <ImageView
-                                android:layout_width="64dp"
+                                android:layout_width="128dp"
                                 android:layout_height="64dp"
                                 android:padding="10dp"
-                                 />
+                                android:src="@drawable/mingos"
+                                />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="Ball"
+                                android:text="Mingoes"
                                 android:textStyle="bold" />
 
                             <View
@@ -210,7 +211,7 @@ android:background="@drawable/foodvillalogo"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:padding="5dp"
-                                android:text="@string/app_name"
+                                android:text="Counter 2"
                                 android:textColor="@android:color/darker_gray" />
 
                         </LinearLayout>
@@ -241,16 +242,17 @@ android:background="@drawable/foodvillalogo"
                             android:orientation="vertical">
 
                             <ImageView
-                                android:layout_width="64dp"
+                                android:layout_width="128dp"
                                 android:layout_height="64dp"
                                 android:padding="10dp"
-                                 />
+                                android:src="@drawable/nandini"
+                                />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-
+                                android:text="Nandini"
                                 android:textStyle="bold" />
 
                             <View
@@ -264,7 +266,7 @@ android:background="@drawable/foodvillalogo"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:padding="5dp"
-                                android:text="@string/app_name"
+                                android:text="Counter 3"
                                 android:textColor="@android:color/darker_gray" />
 
                         </LinearLayout>
@@ -286,16 +288,17 @@ android:background="@drawable/foodvillalogo"
                             android:orientation="vertical">
 
                             <ImageView
-                                android:layout_width="64dp"
+                                android:layout_width="128dp"
                                 android:layout_height="64dp"
                                 android:padding="10dp"
-                                 />
+                                android:src="@drawable/ich"
+                                />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="@string/app_name"
+                                android:text="ICH"
                                 android:textStyle="bold" />
 
                             <View
@@ -309,7 +312,7 @@ android:background="@drawable/foodvillalogo"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:padding="5dp"
-                                android:text="@string/app_name"
+                                android:text="Counter 4"
                                 android:textColor="@android:color/darker_gray" />
 
                         </LinearLayout>
@@ -341,17 +344,19 @@ android:background="@drawable/foodvillalogo"
                             android:orientation="vertical">
 
                             <ImageView
-                                android:layout_width="64dp"
+                                android:layout_width="128dp"
                                 android:layout_height="64dp"
                                 android:padding="10dp"
-                                 />
+                                android:src="@drawable/ich"
+                                />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="@string/app_name"
+                                android:text="Fressheteria"
                                 android:textStyle="bold" />
+
 
                             <View
                                 android:layout_width="match_parent"
@@ -364,8 +369,9 @@ android:background="@drawable/foodvillalogo"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:padding="5dp"
-                                android:text="@string/app_name"
+                                android:text="Counter 5"
                                 android:textColor="@android:color/darker_gray" />
+
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -388,17 +394,19 @@ android:background="@drawable/foodvillalogo"
                             android:orientation="vertical">
 
                             <ImageView
-                                android:layout_width="64dp"
+                                android:layout_width="128dp"
                                 android:layout_height="64dp"
                                 android:padding="10dp"
-                                 />
+                                android:src="@drawable/ich"
+                                />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="@string/app_name"
+                                android:text="Nichael's Cafe"
                                 android:textStyle="bold" />
+
 
                             <View
                                 android:layout_width="match_parent"
@@ -411,8 +419,9 @@ android:background="@drawable/foodvillalogo"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:padding="5dp"
-                                android:text="@string/app_name"
+                                android:text="Counter 6"
                                 android:textColor="@android:color/darker_gray" />
+
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>

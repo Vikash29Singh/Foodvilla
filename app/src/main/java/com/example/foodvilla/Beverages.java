@@ -50,20 +50,20 @@ class Beverages extends Fragment implements RecyclerViewAdapter.ClickAdapterList
 
 
         dataModel = new ArrayList<>();
-        Model model = new Model("Coffee","10","4", "2","Available", R.drawable.foodvillalogo);
+        Model model = new Model("Coffee","10","4.5", "2","Available", R.drawable.coffee);
         dataModel.add(model);
 
-        model = new Model("BLR","10","12:15", "GAU", "15:20", R.drawable.foodvillalogo);
+        model = new Model("Tea","10","4.5", "2", "Available", R.drawable.tea);
         dataModel.add(model);
 
-        model = new Model("BLR", "10","5:50","GAU", "9:00", R.drawable.foodvillalogo);
+        model = new Model("Appy", "10","5.0","1", "9:00", R.drawable.appy);
         dataModel.add(model);
 
-        model = new Model("BLR", "10","16:30","GAU","20:40",  R.drawable.foodvillalogo);
+        model = new Model("Orange Juice", "30","5.0","2","20:40",  R.drawable.orange);
         dataModel.add(model);
 
 
-        model = new Model("BLR","10","13:15", "GAU","4:15", R.drawable.foodvillalogo);
+       /* model = new Model("BLR","10","13:15", "GAU","4:15", R.drawable.foodvillalogo);
         dataModel.add(model);
 
         model = new Model("BLR","10","7:20", "GAU","10:45", R.drawable.foodvillalogo);
@@ -74,7 +74,7 @@ class Beverages extends Fragment implements RecyclerViewAdapter.ClickAdapterList
 
 
         model = new Model("BLR","10","20:45", "GAU","12:25",  R.drawable.foodvillalogo);
-        dataModel.add(model);
+        dataModel.add(model);*/
 
        /* model = new Model("Super Series", "Deuce", "Rs. 653", R.drawable.deuce_bat2);
         dataModel.add(model);
